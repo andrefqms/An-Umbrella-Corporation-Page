@@ -1,0 +1,95 @@
+html{
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+  text-align: center;
+  background: lightgray;
+  margin:10px;
+  color: black;
+}
+#header{
+	width: 100%;
+	background-color: none; 
+  display:inline-block;
+}
+/* Style the top navigation bar */
+#nav-bar {
+  overflow: auto;
+  background-color: none;
+  margin-top: 30px;
+  position: relative;
+  bottom: 0;
+  left: 120;
+  padding-bottom: 30px;
+  width: 51%;
+}
+
+/* Style the topnav links */
+#nav-bar a {
+  float: center;
+  display: inline-block;
+  color: black;
+  text-align: right;
+  padding: 20px 50px 25px 50px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 600;
+}
+#nav-bar a:hover {
+  background-color: white;
+  border-radius: 15px;
+}
+#header-img {
+  background-color: none;
+  padding: 1em;
+  float: left;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+#video{
+   margin-top: 20px;
+}
+p{
+  padding-left: 90px;
+  padding-right: 90px;
+
+}
+#date{
+   margin-top: 50px;
+}
+ input[type="email"] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+  }
+#submit{
+   
+  margin-top: 10px;
+  align-self: center;
+  background-color: green;
+  border: none;
+  width: 140px;
+  height: 50px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+  font-size: 16px;
+}
+#submit:hover {
+  background-color: darkgreen;
+  transition: background-color 1s;
+  cursor: pointer;
+}
+footer {
+   @media (max-width: 100px) {
+    margin-top: 10px;
+  }
+  margin-top: 30px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+
+}
